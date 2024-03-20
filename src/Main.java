@@ -11,13 +11,9 @@ public class Main {
         alc.addPerson(aNewPerson2);
         alc.addPerson(aNewPerson3);
         alc.addPerson(aNewPerson4);
-        Contacts halleck = new Contacts();
-        halleck.addPerson(aNewPerson5);
-        halleck.addPerson(aNewPerson6);
+        alc.addPerson(aNewPerson5);
+        alc.addPerson(aNewPerson6);
         for(Person a : alc){
-            System.out.println(a);
-        }
-        for(Person a : halleck){
             System.out.println(a);
         }
 
